@@ -14,7 +14,7 @@ public class ReadStringFromConsole {
         System.out.println("s2 is " + s2);
         System.out.println("s3 is " + s3);
 
-        Scanner input = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
         System.out.print("Enter a character: ");
         String s = input.nextLine();
         char ch = s.charAt(0);
